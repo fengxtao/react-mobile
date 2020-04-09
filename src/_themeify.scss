@@ -1,0 +1,32 @@
+@import './_themes.scss';
+
+
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+    $theme-map: $theme-map !global;
+    body[data-theme=#{$theme-name}] & {
+      @content;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+// .app-home {
+//   font-size: 18px;
+//   @include themeify {
+//     color: themed('text-color-primary');
+//   }
+// }
+
+// .app-home {
+//   font-size: 18px; 
+// }
+//   body[data-theme=default] .app-home {
+//     color: #dc2b34; 
+//   }
+//   body[data-theme=light] .app-home {
+//     color: #78A4FA;
+//    }

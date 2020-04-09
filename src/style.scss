@@ -1,0 +1,11 @@
+@import './_themeify.scss';
+
+.app-home {
+  font-size: 18px;
+  @include themeify {
+    color: themed('text-color-primary');
+  }
+}
+input{
+  color:red;
+}

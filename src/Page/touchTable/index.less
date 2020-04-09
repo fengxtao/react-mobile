@@ -1,0 +1,191 @@
+@color1: #FF8C25;
+@color2 : #FFFFFF;
+@color3 : #F4F4F4;
+@color4 : #E6E6EB;
+@color5 : #999999;
+@color6 : #FFE8D3;
+@color7 : #FF595E;
+.row-selected td {
+    background: red  !important;
+}
+.touchTable {
+
+    height: 100%;
+
+    /*CheckBox*/
+    .u-checkbox.is-checked .u-checkbox-label:after {
+        color: @color1  !important;
+    }
+
+    .u-checkbox input[type=checkbox]:focus+.u-checkbox-label:before {
+        border-color: @color1;
+    }
+
+    .u-table-header {
+        background      : @color3  !important;
+        margin-bottom:0px!important;
+    }
+    
+    .u-table-header::-webkit-scrollbar {
+        display: none;
+    }
+
+    .u-table-thead>tr>th {
+        font-size       : 14px;
+        padding         : 0 8px !important;
+        background      : @color3  !important;
+        border-bottom   : 1px solid @color3  !important;
+    }
+
+    .u-table-body {
+        background: transparent !important;
+
+        td {
+            background: transparent !important;
+        }
+    }
+
+    .u-table-tbody>tr>td {
+        font-size    : 14px;
+        padding      : 0 !important;
+        background   : @color2;
+        border-bottom: 1px solid @color4  !important;
+    }
+
+    .row-selected>td {
+        background: red  !important;
+    }
+
+    .u-table-row-hover {
+        background: fade(@color2, 0);
+    }
+
+    .row-cell-div {
+        word-break   : keep-all;
+        white-space  : nowrap;
+        overflow     : hidden;
+        text-overflow: ellipsis;
+    }
+
+    .row-cell-pad {
+        padding: 0px 8px;
+    }
+
+    .selectedCell {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+
+        i {
+            width: 25%;
+        }
+
+        span {
+            width: 50%;
+        }
+    }
+
+    .unSelectedCell {
+        width: 100%;
+    }
+
+    .mouse {
+        cursor: pointer;
+    }
+
+    .iconKey {
+        font-size: 20px;
+        color    : @color1  !important;
+    }
+
+    .iconDel {
+        font-size: 20px;
+        color    : @color1  !important;
+    }
+
+    .iconText {
+        overflow: hidden;
+        cursor  : default;
+    }
+
+    .u-table-placeholder {
+        background  : transparent !important;
+        border-color: transparent;
+        color       : @color5;
+
+        .defaultContainer {
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+
+            .img {
+                width : 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .u-table-thead {
+        .tplus-table-badge {
+            display: none;
+        }
+    }
+
+    .tplus-table-badge {
+        .badge-item {
+            position: absolute;
+            color   : @color2;
+            width   : 0;
+            height  : 0;
+
+            span {
+                position : absolute;
+                left     : 0;
+                top      : -2px;
+                transform: scale(0.8, 0.8);
+            }
+        }
+
+        .badge-left-top {
+            left        : 0;
+            border-top  : 26px solid @color7;
+            border-right: 26px solid transparent;
+
+            span {
+                top: -27px;
+            }
+        }
+
+        .badge-right-top {
+            right      : 0;
+            border-top : 26px solid @color7;
+            border-left: 26px solid transparent;
+
+            span {
+                top : -27px;
+                left: -14px;
+            }
+        }
+
+        .badge-left-bottom {
+            left         : 0;
+            border-bottom: 26px solid @color7;
+            border-right : 26px solid transparent;
+
+            span {
+                top: 9px;
+            }
+        }
+
+        .badge-right-bottom {
+            right        : 0;
+            border-bottom: 26px solid @color7;
+            border-left  : 26px solid transparent;
+
+            span {
+                top : 9px;
+                left: -14px;
+            }
+        }
+    }
+}
