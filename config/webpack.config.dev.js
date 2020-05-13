@@ -21,8 +21,9 @@ let devConfig={
 		contentBase: path.resolve(__dirname, 'dist'),
 		hot: true,
 		inline: true,
-		port: 3000,
-		host: '127.0.0.1',
+    port: 3000,
+    host:'0.0.0.0',
+		// host: '127.0.0.1',
 		// Required for webpack-dev-server.
 		// outputPath: path.resolve(__dirname, 'dist'),
     disableHostCheck: true,

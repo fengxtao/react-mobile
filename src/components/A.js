@@ -1,4 +1,11 @@
-// import React from 'react' ;
-export default function(){
-    return '<div>aaa</div>'
+import React from 'react' ;
+export default class{
+
+
+    render(){
+        return <>{
+            this.get
+            this.props.children
+        }</>
+    }
 }

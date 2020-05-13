@@ -1,0 +1,17 @@
+// 行内元素垂直居中 水平居中
+.center-container{
+    text-align: center;
+    display: table;
+}
+.center-element{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+//去掉滚动轴
+.scrollnone{
+    &::-webkit-scrollbar{//chrome
+        display: none;
+    }
+    scrollbar-width: none;//firefox
+}

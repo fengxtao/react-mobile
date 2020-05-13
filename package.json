@@ -68,7 +68,7 @@
         "antd-mobile": "^2.3.1",
         "history": "^4.10.1",
         "mutants-microfx": "^1.0.1",
-        "react": "^16.6.3",
+        "react": "^16.13.1",
         "react-dom": "^16.6.3",
         "react-loadable": "^5.5.0",
         "react-router-config": "^5.1.1",

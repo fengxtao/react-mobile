@@ -7,25 +7,25 @@ import CacheRoute, { CacheSwitch } from 'react-router-cache-route'
 import { renderRoutes } from 'react-router-config'
 import { createBrowserHistory } from 'history';
 import React from 'react';
-import Page1 from '../Page/App'
+import Grid from '../Page/grid/index.js'
 import Mine from '../Page/mine'
 import Login from '../Page/Login'
 
-const routeConfig=[
+const routeConfig = [
     {
         path: '/mine',
         component: Mine,
-         routes: [ // 嵌套路由
+        routes: [ // 嵌套路由
             {
                 path: '/mine/life',
-                component: function(){
+                component: function () {
                     return <div>lifefengtao</div>
                 },
             },
             {
                 path: '/mine/*',
                 exact: true,
-                component: function(){
+                component: function () {
                     return <Redirect from='/mine/*' to='/mine/life'></Redirect>
                 },
             }
@@ -36,12 +36,12 @@ const routeConfig=[
         component: Login
     },
     {
-        path: '/page1',
-        component: Page1,
+        path: '/grid',
+        component: Grid,
     },
     {
-        path:'/*',
-        component:function(){
+        path: '/*',
+        component: function () {
             return <Redirect from='/*' to='/mine'></Redirect>
         },
     }
@@ -55,11 +55,11 @@ class App extends React.Component {
         return <Switch> {renderRoutes(routeConfig)}</Switch>
         //组件
         return <Switch>
-                <Route path="/mine" component={Mine} />
-                <Route path="/page1" component={Page1} />
-                <Redirect from='/*' to='/mine'></Redirect>
-            </Switch>
-        
+            <Route path="/mine" component={Mine} />
+            <Route path="/page1" component={Page1} />
+            <Redirect from='/*' to='/mine'></Redirect>
+        </Switch>
+
     }
 }
 export const history = createBrowserHistory();
@@ -73,9 +73,9 @@ class BasicRoute extends React.Component {
         </Router>
     }
 }
-setTimeout(
-()=>{
-    history.push('/mine/lifkk233e')
-},2000
-)
+// setTimeout(
+//     () => {
+//         history.push('/grid')
+//     }, 2000
+// )
 export default BasicRoute;

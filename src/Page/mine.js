@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { TabBar } from 'antd-mobile';
 import './mine.less'
 import { Route, Switch, HashRouter, hashHistory, browserHistory, Router, Redirect } from 'react-router-dom';
-
+import {history} from '../Router/router'
 class TabBarExample extends React.Component {
   constructor(props) {
     super(props);
@@ -39,12 +39,16 @@ class TabBarExample extends React.Component {
         <a style={{ display: 'block', marginBottom: 600, color: '#108ee9' }}
           onClick={(e) => {
             e.preventDefault();
-            this.setState({
-              fullScreen: !this.state.fullScreen,
-            });
+            // this.setState({
+            //   fullScreen: !this.state.fullScreen,
+            // });
+            // history.push('/grid');
+            history.push({pathname:"/grid ",state : { name : 'sunny' }});
           }}
         >
           Click to switch fullscreen
+
+
         </a>
        
       </div>

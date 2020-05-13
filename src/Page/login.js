@@ -1,7 +1,20 @@
 
-import React, { Component } from 'react';
 
+import React, { useState } from 'react';
 import './mine.less'
+
+function Example() {
+  // 声明一个叫 “count” 的 state 变量
+  let [count, setCount] = useState(0);
+  debugger
+  return <div onClick={()=>{
+  
+    setCount(  count+1)
+  }}>
+    {count}
+  </div>
+}
+
 
 class TabBarExample extends React.Component {
   constructor(props) {
@@ -21,6 +34,7 @@ class TabBarExample extends React.Component {
       }}>
           登出
         </span>
+        <Example></Example>
        </div>
     );
   }
