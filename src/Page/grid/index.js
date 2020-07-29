@@ -4,8 +4,24 @@ import { Card, WingBlank, WhiteSpace } from 'antd-mobile';
 import Grid from './grid';
 
 class Rc extends Component {
+  constructor(props,context) {
+    super(props,context)
+
+    this.state = {
+      'data': { name: 'fengtao' }
+    }
+    var count =1 ;
+    setInterval(() => {
+      this.setState({
+        data:{
+          name:count++
+        }
+      })
+    }, 1000)
+  }
+
   render() {
-    console.log(this.props.location.query.state )
+    // console.log(this.props.location.query.state )
     return <>
       <WingBlank size="lg">
         <WhiteSpace size="lg" />
@@ -16,7 +32,7 @@ class Rc extends Component {
             extra={<span></span>}
           />
           <Card.Body>
-           <Grid></Grid>
+            <Grid data={this.state.data}></Grid>
           </Card.Body>
           <Card.Footer content="" extra={<div></div>} />
         </Card>

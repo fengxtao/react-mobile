@@ -27,7 +27,8 @@ let devConfig={
 		// Required for webpack-dev-server.
 		// outputPath: path.resolve(__dirname, 'dist'),
     disableHostCheck: true,
-    historyApiFallback:true
+    historyApiFallback:true,
+    headers:{'Access-Control-Allow-Origin':'*'}
     // proxy: {
     //   '/post': {
     //     // target: 'http://localhost:2000',

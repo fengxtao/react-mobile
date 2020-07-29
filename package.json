@@ -18,7 +18,6 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "webpack-init-simple": "^1.0.15",
         "@babel/cli": "^7.1.5",
         "@babel/core": "^7.1.6",
         "@babel/polyfill": "^7.0.0",
@@ -36,6 +35,7 @@
         "chalk": "^2.4.2",
         "child_process": "^1.0.2",
         "clean-webpack-plugin": "^0.1.19",
+        "compression-webpack-plugin": "^4.0.0",
         "cross-spawn": "^6.0.5",
         "css-loader": "^1.0.0",
         "detect-port-alt": "^1.1.6",
@@ -59,6 +59,7 @@
         "webpack": "^4.17.1",
         "webpack-cli": "^3.1.0",
         "webpack-dev-server": "^3.1.6",
+        "webpack-init-simple": "^1.0.15",
         "webpack-merge": "^4.1.5"
     },
     "dependencies": {
@@ -68,6 +69,7 @@
         "antd-mobile": "^2.3.1",
         "history": "^4.10.1",
         "mutants-microfx": "^1.0.1",
+        "qiankun": "^2.0.16",
         "react": "^16.13.1",
         "react-dom": "^16.6.3",
         "react-loadable": "^5.5.0",

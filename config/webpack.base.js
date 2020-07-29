@@ -7,6 +7,7 @@ const promisePlugin = require('../src/plugin/plugin');
 const babelrc = require('./babelrc.js');
 const pwd = process.cwd();
 console.log(pwd,'pwd')
+const packageName = require('../package.json').name;
 module.exports={
     entry: [ pwd+'/src/index.js'],
     // target:'web',
@@ -14,6 +15,9 @@ module.exports={
         filename: '[name]_main_[hash].js',
         path: path.join(pwd, 'dist'),
         chunkFilename: '[name]_chunk_[chunkhash].js',
+        library: `${packageName}-[name]`,
+        libraryTarget: 'umd',
+        jsonpFunction: `webpackJsonp_${packageName}`,
     },
     module: {
         rules: [

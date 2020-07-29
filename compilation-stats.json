@@ -4,225 +4,247 @@
 [34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/fengtao/Documents/个人项目/mobile-react/config/dist
 [34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
 [34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
-[34mℹ[39m [90m｢wdm｣[39m: Hash: d7f7c580fefc28a77be2
+[34mℹ[39m [90m｢wdm｣[39m: Hash: a25043cc656227b93d15
 Version: webpack 4.42.1
-Time: 8048ms
-Built at: 2020-05-07 10:11:37
+Time: 6169ms
+Built at: 2020-07-27 17:38:17
                               Asset       Size  Chunks                         Chunk Names
                          index.html  461 bytes          [emitted]              
-main.style.d7f7c580fefc28a77be2.css   1.11 KiB    main  [emitted]              main
-  main_main_d7f7c580fefc28a77be2.js   7.38 MiB    main  [emitted] [immutable]  main
-Entrypoint main = main_main_d7f7c580fefc28a77be2.js main.style.d7f7c580fefc28a77be2.css
+main.style.a25043cc656227b93d15.css   1.11 KiB    main  [emitted]              main
+  main_main_a25043cc656227b93d15.js   7.41 MiB    main  [emitted] [immutable]  main
+Entrypoint main = main_main_a25043cc656227b93d15.js main.style.a25043cc656227b93d15.css
 [0] multi (webpack)-dev-server/client?http://0.0.0.0:3000 (webpack)/hot/dev-server.js ./src/index.js 52 bytes {main} [built]
-    factory:0ms building:0ms dependencies:780ms = 780ms
+    factory:0ms building:1ms dependencies:268ms = 269ms
 [./node_modules/antd-mobile/dist/antd-mobile.css] 1.03 KiB {main} [built]
-    [1] 1ms -> [./src/index.js] 2416ms -> factory:490ms building:2ms dependencies:1084ms = 3993ms
+    [1] 1ms -> [./src/index.js] 1388ms -> factory:236ms building:834ms dependencies:975ms = 3434ms
 [./node_modules/react-dom/index.js] 1.33 KiB {main} [built]
-    [1] 1ms -> [./src/index.js] 2416ms -> factory:490ms building:2ms dependencies:1084ms = 3993ms
+    [1] 1ms -> [./src/index.js] 1388ms -> factory:236ms building:834ms dependencies:975ms = 3434ms
 [./node_modules/react/index.js] 190 bytes {main} [built]
-    [1] 1ms -> [./src/index.js] 2416ms -> factory:490ms building:2ms dependencies:1084ms = 3993ms
+    [1] 1ms -> [./src/index.js] 1388ms -> factory:236ms building:834ms dependencies:975ms = 3434ms
 [./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] (webpack)-dev-server/client?http://0.0.0.0:3000 4.29 KiB {main} [built]
-    [0] 0ms -> factory:780ms building:395ms = 1175ms
+    [0] 1ms -> factory:268ms building:33ms = 302ms
 [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
-    [0] 0ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 1175ms -> factory:2018ms building:30ms dependencies:176ms = 3399ms
+    [0] 1ms -> [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] 301ms -> factory:1350ms building:23ms dependencies:189ms = 1864ms
 [./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.59 KiB {main} [built]
-    [0] 0ms -> factory:780ms building:395ms = 1175ms
-[./src/index.js] 302 bytes {main} [built]
-    [1] 1ms -> factory:608ms building:1808ms = 2417ms
-    + 419 hidden modules
+    [0] 1ms -> factory:268ms building:33ms = 302ms
+[./src/index.js] 3.37 KiB {main} [built]
+    [1] 1ms -> factory:101ms building:1287ms = 1389ms
+    + 420 hidden modules
 Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/less-loader/dist/cjs.js!src/Page/grid/grid/grid.less:
     Entrypoint undefined = extract-text-webpack-plugin-output-filename
     [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less] ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less 524 bytes {0} [built]
-        factory:6ms building:13ms = 19ms
+        factory:11ms building:4ms = 15ms
     [./node_modules/css-loader/lib/css-base.js] 2.21 KiB {0} [built]
-        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less] 19ms -> factory:0ms building:1ms = 20ms
+        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less] 15ms -> factory:0ms building:1ms = 16ms
 Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/less-loader/dist/cjs.js!src/Page/mine.less:
     Entrypoint undefined = extract-text-webpack-plugin-output-filename
     [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less] ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less 343 bytes {0} [built]
-        factory:3ms building:14ms = 17ms
+        factory:4ms building:8ms = 12ms
     [./node_modules/css-loader/lib/css-base.js] 2.21 KiB {0} [built]
-        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less] 17ms -> factory:1ms building:1ms = 19ms
+        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less] 12ms -> factory:0ms building:1ms = 13ms
 Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/less-loader/dist/cjs.js!src/css/style.less:
     Entrypoint undefined = extract-text-webpack-plugin-output-filename
     [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/css/style.less] ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/css/style.less 607 bytes {0} [built]
-        factory:4ms building:52ms = 56ms
+        factory:8ms building:46ms = 54ms
     [./node_modules/css-loader/lib/css-base.js] 2.21 KiB {0} [built]
-        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/css/style.less] 56ms -> factory:0ms building:2ms = 58ms
+        [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/css/style.less] 54ms -> factory:0ms building:3ms = 57ms
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
     [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 527 bytes {0} [built]
-        factory:95ms building:278ms = 373ms
+        factory:42ms building:40ms = 82ms
     [./node_modules/lodash/lodash.js] 528 KiB {0} [built]
-        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 373ms -> factory:237ms building:4800ms = 5410ms
+        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 82ms -> factory:26ms building:3656ms = 3764ms
     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
-        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 373ms -> [./node_modules/lodash/lodash.js] 5037ms -> factory:1ms building:0ms = 5411ms
+        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 82ms -> [./node_modules/lodash/lodash.js] 3682ms -> factory:0ms building:1ms = 3765ms
     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
-        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 373ms -> [./node_modules/lodash/lodash.js] 5037ms -> factory:1ms building:0ms = 5411ms
+        [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 82ms -> [./node_modules/lodash/lodash.js] 3682ms -> factory:0ms building:1ms = 3765ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 24d5cde480f4b6b0ad77
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 132caaf1b0e752d7ab43
 Version: webpack 4.42.1
-Time: 1767ms
-Built at: 2020-05-07 10:24:48
+Time: 1444ms
+Built at: 2020-07-27 17:51:43
                                   Asset       Size  Chunks                               Chunk Names
-   d7f7c580fefc28a77be2.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   a25043cc656227b93d15.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.d7f7c580fefc28a77be2.hot-update.js   23.8 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.24d5cde480f4b6b0ad77.css   1.11 KiB    main  [emitted]                    main
-      main_main_24d5cde480f4b6b0ad77.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_24d5cde480f4b6b0ad77.js main.d7f7c580fefc28a77be2.hot-update.js main.style.24d5cde480f4b6b0ad77.css
+main.a25043cc656227b93d15.hot-update.js   14.4 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.132caaf1b0e752d7ab43.css   1.11 KiB    main  [emitted]                    main
+      main_main_132caaf1b0e752d7ab43.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_132caaf1b0e752d7ab43.js main.a25043cc656227b93d15.hot-update.js main.style.132caaf1b0e752d7ab43.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:6ms dependencies:1ms building:414ms = 421ms
-[./src/Page/mine.js] 8.97 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:6ms dependencies:1ms building:414ms = 421ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 144ms -> factory:1ms dependencies:0ms building:149ms = 294ms
+[./src/Router/router.js] 5.75 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:144ms dependencies:1ms = 145ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /mine
-[34mℹ[39m [90m｢wdm｣[39m: Hash: a0aa4ff3beaaf0112911
+[34mℹ[39m [90m｢wdm｣[39m: Hash: d00920234e024ae86342
 Version: webpack 4.42.1
-Time: 1138ms
-Built at: 2020-05-07 10:24:50
-                               Asset       Size  Chunks                               Chunk Names
-24d5cde480f4b6b0ad77.hot-update.json   35 bytes          [emitted] [immutable] [hmr]  
-                          index.html  461 bytes          [emitted]                    
- main.style.a0aa4ff3beaaf0112911.css   1.11 KiB    main  [emitted]                    main
-   main_main_a0aa4ff3beaaf0112911.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_a0aa4ff3beaaf0112911.js main.style.a0aa4ff3beaaf0112911.css
+Time: 1080ms
+Built at: 2020-07-27 17:53:39
+                                  Asset       Size  Chunks                               Chunk Names
+   132caaf1b0e752d7ab43.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+                             index.html  461 bytes          [emitted]                    
+main.132caaf1b0e752d7ab43.hot-update.js   8.66 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.d00920234e024ae86342.css   1.11 KiB    main  [emitted]                    main
+      main_main_d00920234e024ae86342.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_d00920234e024ae86342.js main.132caaf1b0e752d7ab43.hot-update.js main.style.d00920234e024ae86342.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:1ms building:198ms = 199ms
-[./src/Page/mine.js] 8.97 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:1ms building:198ms = 199ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 74ms -> [./src/Router/router.js] 4ms -> factory:1ms dependencies:2ms building:142ms = 223ms
+[./src/index.js] 3.38 KiB {main} [built]
+    [1] 0ms -> factory:0ms building:74ms = 74ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 6c700b7a9729d2f24e11
+[34mℹ[39m [90m｢wdm｣[39m: Hash: a26412108aa55effb1bb
 Version: webpack 4.42.1
-Time: 1006ms
-Built at: 2020-05-07 10:24:59
+Time: 1312ms
+Built at: 2020-07-27 17:55:13
                                   Asset       Size  Chunks                               Chunk Names
-   a0aa4ff3beaaf0112911.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   d00920234e024ae86342.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.a0aa4ff3beaaf0112911.hot-update.js   23.8 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.6c700b7a9729d2f24e11.css   1.11 KiB    main  [emitted]                    main
-      main_main_6c700b7a9729d2f24e11.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_6c700b7a9729d2f24e11.js main.a0aa4ff3beaaf0112911.hot-update.js main.style.6c700b7a9729d2f24e11.css
+main.d00920234e024ae86342.hot-update.js   14.5 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.a26412108aa55effb1bb.css   1.11 KiB    main  [emitted]                    main
+      main_main_a26412108aa55effb1bb.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_a26412108aa55effb1bb.js main.d00920234e024ae86342.hot-update.js main.style.a26412108aa55effb1bb.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:5ms building:252ms = 257ms
-[./src/Page/mine.js] 8.97 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:5ms building:252ms = 257ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 107ms -> factory:3ms dependencies:0ms building:98ms = 208ms
+[./src/Router/router.js] 5.77 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:107ms dependencies:3ms = 110ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: a0a40ad1d035c43e989f
+[34mℹ[39m [90m｢wdm｣[39m: Hash: de2ce522b2d50beb444c
 Version: webpack 4.42.1
-Time: 1517ms
-Built at: 2020-05-07 10:25:41
+Time: 953ms
+Built at: 2020-07-27 17:55:27
                                   Asset       Size  Chunks                               Chunk Names
-   6c700b7a9729d2f24e11.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   a26412108aa55effb1bb.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.6c700b7a9729d2f24e11.hot-update.js   7.88 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.a0a40ad1d035c43e989f.css   1.11 KiB    main  [emitted]                    main
-      main_main_a0a40ad1d035c43e989f.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_a0a40ad1d035c43e989f.js main.6c700b7a9729d2f24e11.hot-update.js main.style.a0a40ad1d035c43e989f.css
+main.a26412108aa55effb1bb.hot-update.js   8.62 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.de2ce522b2d50beb444c.css   1.11 KiB    main  [emitted]                    main
+      main_main_de2ce522b2d50beb444c.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_de2ce522b2d50beb444c.js main.a26412108aa55effb1bb.hot-update.js main.style.de2ce522b2d50beb444c.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:2ms building:386ms = 388ms
-[./src/Page/grid/index.js] 4.1 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:2ms building:386ms = 388ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 43ms -> [./src/Router/router.js] 29ms -> factory:0ms dependencies:0ms building:76ms = 148ms
+[./src/index.js] 3.37 KiB {main} [built]
+    [1] 0ms -> factory:0ms building:43ms = 43ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 1cd8558ce9c74483316d
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 7d4afaeafdc5186705ad
 Version: webpack 4.42.1
-Time: 2360ms
-Built at: 2020-05-07 10:29:51
+Time: 1190ms
+Built at: 2020-07-27 17:57:10
                                   Asset       Size  Chunks                               Chunk Names
-   a0a40ad1d035c43e989f.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   de2ce522b2d50beb444c.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.a0a40ad1d035c43e989f.hot-update.js   8.08 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.1cd8558ce9c74483316d.css   1.11 KiB    main  [emitted]                    main
-      main_main_1cd8558ce9c74483316d.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_1cd8558ce9c74483316d.js main.a0a40ad1d035c43e989f.hot-update.js main.style.1cd8558ce9c74483316d.css
+main.de2ce522b2d50beb444c.hot-update.js   14.7 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.7d4afaeafdc5186705ad.css   1.11 KiB    main  [emitted]                    main
+      main_main_7d4afaeafdc5186705ad.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_7d4afaeafdc5186705ad.js main.de2ce522b2d50beb444c.hot-update.js main.style.7d4afaeafdc5186705ad.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 1ms -> [./src/Router/router.js] 0ms -> factory:1ms dependencies:129ms building:297ms = 428ms
-[./src/Page/grid/index.js] 4.15 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 1ms -> [./src/Router/router.js] 0ms -> factory:1ms dependencies:129ms building:297ms = 428ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 125ms -> factory:3ms dependencies:1ms building:85ms = 214ms
+[./src/Router/router.js] 5.84 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:125ms dependencies:2ms = 127ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 02e3451ec6837dd5fe29
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 3f918367f39a99d6fc79
 Version: webpack 4.42.1
-Time: 1952ms
-Built at: 2020-05-07 10:30:10
+Time: 1255ms
+Built at: 2020-07-27 17:57:37
                                   Asset       Size  Chunks                               Chunk Names
-   1cd8558ce9c74483316d.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   7d4afaeafdc5186705ad.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.1cd8558ce9c74483316d.hot-update.js   7.88 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.02e3451ec6837dd5fe29.css   1.11 KiB    main  [emitted]                    main
-      main_main_02e3451ec6837dd5fe29.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_02e3451ec6837dd5fe29.js main.1cd8558ce9c74483316d.hot-update.js main.style.02e3451ec6837dd5fe29.css
+main.7d4afaeafdc5186705ad.hot-update.js   14.5 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.3f918367f39a99d6fc79.css   1.11 KiB    main  [emitted]                    main
+      main_main_3f918367f39a99d6fc79.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_3f918367f39a99d6fc79.js main.7d4afaeafdc5186705ad.hot-update.js main.style.3f918367f39a99d6fc79.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 1ms -> factory:0ms dependencies:2ms building:331ms = 334ms
-[./src/Page/grid/index.js] 4.1 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 1ms -> factory:0ms dependencies:2ms building:331ms = 334ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 129ms -> factory:2ms dependencies:0ms building:67ms = 198ms
+[./src/Router/router.js] 5.77 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:129ms dependencies:2ms = 131ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: e656a7410458165dc8f5
+[34mℹ[39m [90m｢wdm｣[39m: Hash: b1de451c170444be3a59
 Version: webpack 4.42.1
-Time: 1208ms
-Built at: 2020-05-07 10:30:31
+Time: 1197ms
+Built at: 2020-07-27 17:58:16
                                   Asset       Size  Chunks                               Chunk Names
-   02e3451ec6837dd5fe29.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   3f918367f39a99d6fc79.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.02e3451ec6837dd5fe29.hot-update.js     24 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.e656a7410458165dc8f5.css   1.11 KiB    main  [emitted]                    main
-      main_main_e656a7410458165dc8f5.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_e656a7410458165dc8f5.js main.02e3451ec6837dd5fe29.hot-update.js main.style.e656a7410458165dc8f5.css
+main.3f918367f39a99d6fc79.hot-update.js   14.5 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.b1de451c170444be3a59.css   1.11 KiB    main  [emitted]                    main
+      main_main_b1de451c170444be3a59.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_b1de451c170444be3a59.js main.3f918367f39a99d6fc79.hot-update.js main.style.b1de451c170444be3a59.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:1ms building:205ms = 206ms
-[./src/Page/mine.js] 9 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:1ms building:205ms = 206ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 118ms -> factory:2ms dependencies:0ms building:152ms = 272ms
+[./src/Router/router.js] 5.76 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:118ms dependencies:1ms = 119ms
+    + 430 hidden modules
+Child html-webpack-plugin for "index.html":
+     1 asset
+    Entrypoint undefined = index.html
+       4 modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 02818979671b3b1258ed
+Version: webpack 4.42.1
+Time: 1159ms
+Built at: 2020-07-27 17:58:54
+                                  Asset       Size  Chunks                               Chunk Names
+   b1de451c170444be3a59.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+                             index.html  461 bytes          [emitted]                    
+main.b1de451c170444be3a59.hot-update.js   14.3 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.02818979671b3b1258ed.css   1.11 KiB    main  [emitted]                    main
+      main_main_02818979671b3b1258ed.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_02818979671b3b1258ed.js main.b1de451c170444be3a59.hot-update.js main.style.02818979671b3b1258ed.css
+[./src/Page/Login.js] 5.56 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 165ms -> factory:1ms dependencies:0ms building:76ms = 242ms
+[./src/Router/router.js] 5.7 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:0ms building:165ms dependencies:1ms = 166ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
@@ -231,44 +253,104 @@ Child html-webpack-plugin for "index.html":
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
 [34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 497131a1fee9f2378f6a
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 8b688d1d0c46874ce94e
 Version: webpack 4.42.1
-Time: 1405ms
-Built at: 2020-05-07 10:31:04
+Time: 2752ms
+Built at: 2020-07-27 17:59:01
                                   Asset       Size  Chunks                               Chunk Names
-   783175cc1ddc94378f76.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   86b613cf4fb83d391eb3.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.783175cc1ddc94378f76.hot-update.js   23.9 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.497131a1fee9f2378f6a.css   1.11 KiB    main  [emitted]                    main
-      main_main_497131a1fee9f2378f6a.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_497131a1fee9f2378f6a.js main.783175cc1ddc94378f76.hot-update.js main.style.497131a1fee9f2378f6a.css
+main.86b613cf4fb83d391eb3.hot-update.js   3.52 MiB    main  [emitted] [immutable] [hmr]  main
+    main.style.8b688d1d0c46874ce94e.css   1.11 KiB    main  [emitted]                    main
+      main_main_8b688d1d0c46874ce94e.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_8b688d1d0c46874ce94e.js main.86b613cf4fb83d391eb3.hot-update.js main.style.8b688d1d0c46874ce94e.css
+[./node_modules/@babel/runtime/helpers/esm/extends.js] 397 bytes {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./node_modules/react-router-config/esm/react-router-config.js] 678ms -> factory:0ms building:542ms = 1325ms
+[./node_modules/antd-mobile/es/index.js] 3.1 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./src/Page/grid/index.js] 678ms -> factory:3ms building:388ms dependencies:2ms = 1176ms
+[./node_modules/history/esm/history.js] 28.1 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./node_modules/react-router-cache-route/dist/cacheRoute.js] 32.3 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./node_modules/react-router-cache-route/index.js] 678ms -> factory:0ms building:694ms dependencies:0ms = 1477ms
+[./node_modules/react-router-cache-route/index.js] 184 bytes {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./node_modules/react-router-config/esm/react-router-config.js] 1.48 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./node_modules/react-router-dom/es/BrowserRouter.js] 2.36 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./node_modules/react-router-dom/es/index.js] 678ms -> factory:6ms building:610ms dependencies:2ms = 1401ms
+[./node_modules/react-router-dom/es/HashRouter.js] 2.33 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./node_modules/react-router-dom/es/index.js] 678ms -> factory:6ms building:610ms dependencies:2ms = 1401ms
+[./node_modules/react-router-dom/es/Link.js] 4.19 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> [./node_modules/react-router-dom/es/index.js] 678ms -> factory:6ms building:610ms dependencies:2ms = 1401ms
+[./node_modules/react-router-dom/es/index.js] 1010 bytes {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:1ms dependencies:1ms building:195ms = 197ms
-[./src/Page/mine.js] 8.97 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 0ms -> factory:1ms dependencies:1ms building:195ms = 197ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./src/Page/grid/index.js] 4.41 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./src/Page/mine.js] 9.04 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./src/Page/step/index.js] 4.46 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 105ms -> factory:6ms building:672ms dependencies:2ms = 785ms
+[./src/Router/router.js] 5.69 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 0ms -> factory:1ms building:104ms dependencies:6ms = 111ms
+    + 417 hidden modules
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/less-loader/dist/cjs.js!src/Page/grid/grid/grid.less:
+    Entrypoint undefined = extract-text-webpack-plugin-output-filename
+    [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less] ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/Page/grid/grid/grid.less 524 bytes {1} [built]
+        factory:1ms building:105ms = 106ms
+        + 1 hidden module
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/less-loader/dist/cjs.js!src/Page/mine.less:
+    Entrypoint undefined = extract-text-webpack-plugin-output-filename
+    [./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less] ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/Page/mine.less 343 bytes {1} [built]
+        factory:0ms building:509ms = 509ms
+        + 1 hidden module
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
        4 modules
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: Hash: 8575fab11c7ec18e96b4
+[34mℹ[39m [90m｢wdm｣[39m: Hash: dbe2e9e14b292dd02813
 Version: webpack 4.42.1
-Time: 1031ms
-Built at: 2020-05-07 10:31:22
+Time: 1591ms
+Built at: 2020-07-27 19:33:42
                                   Asset       Size  Chunks                               Chunk Names
-   497131a1fee9f2378f6a.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
+   8b688d1d0c46874ce94e.hot-update.json   46 bytes          [emitted] [immutable] [hmr]  
                              index.html  461 bytes          [emitted]                    
-main.497131a1fee9f2378f6a.hot-update.js   24.1 KiB    main  [emitted] [immutable] [hmr]  main
-    main.style.8575fab11c7ec18e96b4.css   1.11 KiB    main  [emitted]                    main
-      main_main_8575fab11c7ec18e96b4.js   7.38 MiB    main  [emitted] [immutable]        main
-Entrypoint main = main_main_8575fab11c7ec18e96b4.js main.497131a1fee9f2378f6a.hot-update.js main.style.8575fab11c7ec18e96b4.css
+main.8b688d1d0c46874ce94e.hot-update.js    5.5 KiB    main  [emitted] [immutable] [hmr]  main
+    main.style.dbe2e9e14b292dd02813.css   1.11 KiB    main  [emitted]                    main
+      main_main_dbe2e9e14b292dd02813.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_dbe2e9e14b292dd02813.js main.8b688d1d0c46874ce94e.hot-update.js main.style.dbe2e9e14b292dd02813.css
 [./src/Page/Login.js] 5.56 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 1ms -> factory:0ms dependencies:2ms building:181ms = 184ms
-[./src/Page/mine.js] 9.04 KiB {main} [built]
-    [1] 0ms -> [./src/index.js] 0ms -> [./src/Router/router.js] 1ms -> factory:0ms dependencies:2ms building:181ms = 184ms
-    + 429 hidden modules
+    [1] 0ms -> [./src/index.js] 63ms -> [./src/Router/router.js] 2ms -> factory:5ms dependencies:2ms building:197ms = 269ms
+[./src/index.js] 1.36 KiB {main} [built]
+    [1] 0ms -> factory:0ms building:63ms = 63ms
+    + 430 hidden modules
+Child html-webpack-plugin for "index.html":
+     1 asset
+    Entrypoint undefined = index.html
+       4 modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 36b99700346427ed94bc
+Version: webpack 4.42.1
+Time: 942ms
+Built at: 2020-07-27 19:33:43
+                               Asset       Size  Chunks                               Chunk Names
+dbe2e9e14b292dd02813.hot-update.json   35 bytes          [emitted] [immutable] [hmr]  
+                          index.html  461 bytes          [emitted]                    
+ main.style.36b99700346427ed94bc.css   1.11 KiB    main  [emitted]                    main
+   main_main_36b99700346427ed94bc.js   7.41 MiB    main  [emitted] [immutable]        main
+Entrypoint main = main_main_36b99700346427ed94bc.js main.style.36b99700346427ed94bc.css
+[./src/Page/Login.js] 5.56 KiB {main} [built]
+    [1] 0ms -> [./src/index.js] 46ms -> [./src/Router/router.js] 0ms -> factory:0ms dependencies:1ms building:80ms = 127ms
+[./src/index.js] 1.36 KiB {main} [built]
+    [1] 0ms -> factory:0ms building:46ms = 46ms
+    + 430 hidden modules
 Child html-webpack-plugin for "index.html":
      1 asset
     Entrypoint undefined = index.html
