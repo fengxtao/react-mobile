@@ -11,7 +11,9 @@ import Grid from '../Page/grid/index.js'
 import Mine from '../Page/mine'
 import Login from '../Page/Login'
 import Step from '../Page/step'
-const baseRoute = '/mobile'
+import Orientation from '../Page/Orientation'
+
+const baseRoute = ''
 const routeConfig = [
     {
         path: baseRoute+'/mine',
@@ -43,6 +45,10 @@ const routeConfig = [
     {
         path:  baseRoute+'/step',
         component: Step,
+    },
+    {
+        path:  baseRoute+'/orientation',
+        component: Orientation,
     },
     {
         path:  baseRoute,
