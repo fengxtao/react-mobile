@@ -12,6 +12,7 @@ import Mine from '../Page/mine'
 import Login from '../Page/Login'
 import Step from '../Page/step'
 import Orientation from '../Page/Orientation'
+import Scroll from '../Page/scroll/index.js'
 
 const baseRoute = ''
 const routeConfig = [
@@ -51,6 +52,10 @@ const routeConfig = [
         component: Orientation,
     },
     {
+        path:  baseRoute+'/scroll',
+        component: Scroll,
+    },
+    {
         path:  baseRoute,
         component: function () {
             return <Redirect from={ baseRoute} to={ baseRoute+'/mine'}></Redirect>
@@ -83,9 +88,5 @@ class BasicRoute extends React.Component {
         </Router>
     }
 }
-// setTimeout(
-//     () => {
-//         history.push('/grid')
-//     }, 2000
-// )
+
 export default BasicRoute;

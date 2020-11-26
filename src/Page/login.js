@@ -6,7 +6,7 @@ import './mine.less'
 function Example() {
   // 声明一个叫 “count” 的 state 变量
   let [count, setCount] = useState(0);
-  debugger
+
   return <div onClick={()=>{
   
     setCount(  count+1)

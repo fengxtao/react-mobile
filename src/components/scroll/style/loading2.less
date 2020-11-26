@@ -1,0 +1,38 @@
+@keyframes donghua {
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        transform-origin: center 100%;
+    }
+    20% {
+        transform: scaleY(1);
+    }
+}
+.loading {
+    height: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    > div {
+        display: inline-block;
+        background-color: black;
+        height: 100%;
+        width: 2px;
+        margin-right: 4px;
+        animation: donghua 1s infinite;
+    }
+    > div:nth-child(2) {
+        animation-delay: -0.4s;
+    }
+    > div:nth-child(3) {
+        animation-delay: -0.6s;
+    }
+    > div:nth-child(4) {
+        animation-delay: -0.5s;
+    }
+    > div:nth-child(5) {
+        animation-delay: -0.2s;
+    }
+}

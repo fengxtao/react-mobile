@@ -30,6 +30,6 @@ import BasicRoute, { history } from './Router/router'
 //   }
 
 ReactDOM.render(<BasicRoute />, document.getElementById('app'));
-history.push('/orientation')
+// history.push('/orientation')
 
 
