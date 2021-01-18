@@ -9,15 +9,15 @@ const pwd = process.cwd();
 console.log(pwd,'pwd')
 const packageName = require('../package.json').name;
 module.exports={
-    entry: [ pwd+'/src/index.js'],
-    // target:'web',
+    // ['babel-polyfill', './src/index.tsx']
+    entry: [pwd+'/src/index.js'],
+    target:'web',
     output: {
-        filename: '[name]_main_[hash].js',
+        filename: '[name]_main.js',
         path: path.join(pwd, 'dist'),
-        chunkFilename: '[name]_chunk_[chunkhash].js',
+        chunkFilename: '[name]_chunk.js',
         library: `${packageName}-[name]`,
         libraryTarget: 'umd',
-        jsonpFunction: `webpackJsonp_${packageName}`,
     },
     module: {
         rules: [
@@ -30,19 +30,11 @@ module.exports={
             },
             {
                 test: /\.less$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    //如果需要，可以在 sass-loader 之前将 resolve-url-loader 链接进来
-                    use: ['css-loader', 'less-loader']
-                })
+                use: ['css-loader', 'less-loader']
             },
             {
                 test: /\.scss$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    //如果需要，可以在 sass-loader 之前将 resolve-url-loader 链接进来
-                    use: ['css-loader', 'sass-loader']
-                })
+                use: ['css-loader', 'sass-loader']
             },
             {
             test: /\.(png|svg|jpg|gif)$/,
@@ -66,7 +58,6 @@ module.exports={
         ]
     },
     plugins:[
-        new ExtractTextPlugin('[name].style.[hash].css'),
         new htmlWebpackPlugin({
             filename: path.join(pwd,"dist",'index.html'),
             template: path.join(pwd,'src/index.html'),

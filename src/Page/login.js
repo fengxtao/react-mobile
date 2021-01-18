@@ -26,11 +26,13 @@ class TabBarExample extends React.Component {
       <div >
         <span onClick={()=>{
         localStorage.setItem('userStore','ture')
+        alert('登陆成功')
       }}>
       登录
         </span>
         <span onClick={()=>{
         localStorage.removeItem('userStore')
+        alert('登出成功')
       }}>
           登出
         </span>
