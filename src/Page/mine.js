@@ -4,6 +4,7 @@ import { TabBar } from 'antd-mobile';
 import './mine.less'
 import { Route, Switch, HashRouter, hashHistory, browserHistory, Router, Redirect } from 'react-router-dom';
 import {history} from '../Router/router'
+import dayjs from 'dayjs'
 class TabBarExample extends React.Component {
   constructor(props) {
     super(props);
@@ -21,36 +22,17 @@ class TabBarExample extends React.Component {
       <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
         <div style={{ paddingTop: 60 }}>Clicked “{pageText}” tab， show “{pageText}” information</div>
         {
-        <Switch>{routes.map(route=>{
-          return <Route key={route.path} path={route.path} component={route.component}></Route>
-        })}
-        </Switch>
+          <Switch>
+            {routes.map(route=>{
+              return <Route key={route.path} path={route.path} component={route.component}></Route>
+            })}
+          </Switch>
         }
-        <a style={{ display: 'block', marginTop: 40, marginBottom: 20, color: '#108ee9' }}
-          onClick={(e) => {
-            e.preventDefault();
-            this.setState({
-              hidden: !this.state.hidden,
-            });
-          }}
-        >
-          Click to show/hide tab-bar
-        </a>
-        <a style={{ display: 'block', marginBottom: 600, color: '#108ee9' }}
-          onClick={(e) => {
-            e.preventDefault();
-            // this.setState({
-            //   fullScreen: !this.state.fullScreen,
-            // });
-            // history.push('/grid');
-            history.push({pathname:"/grid ",state : { name : 'sunny' }});
-          }}
-        >
-          Click to switch fullscreen
-
-
-        </a>
-       
+        {
+          dayjs().hour(23).minute(59).second(59).format('YYYY/MM/DD HH:mm:ss')
+        }{
+          dayjs().hour(23).minute(59).second(59).valueOf()
+        }
       </div>
     );
   }
