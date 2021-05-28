@@ -12,7 +12,7 @@
         "help": "webpack --json > stats.json",
         "init": "webpack-init-simple",
         "pub": "npm publish --registry https://registry.npmjs.org",
-        "start": "webpack serve --config config/webpack.config.dev.js --mode development --profile --json > compilation-stats.json"
+        "start": "webpack serve --config config/webpack.config.dev.js --mode development --open"
     },
     "keywords": [],
     "author": "",

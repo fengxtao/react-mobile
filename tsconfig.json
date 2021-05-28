@@ -1,0 +1,30 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "es2015", "es2016"],
+        "jsx": "react",
+        "target": "es5",
+        "module": "esNext",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        // "inlineSourceMap": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "typeRoots": ["./node_modules/@types"],
+        "paths": {
+            "~/*": ["src/*"],
+            "@new/*": ["src/new/*"],
+            "@/*": ["./src/*"]
+        },
+        "resolveJsonModule": true
+    },
+    "exclude": ["node_modules", "webpack", "server.js", "app", "dist", "publish"]
+}

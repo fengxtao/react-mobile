@@ -66,6 +66,9 @@ const routeConfig = [
 class App extends React.Component {
 
     render() {
+        if (!localStorage.getItem('userStore')) {
+            return <Redirect from='/*' to='/login'></Redirect>
+        }
         //配置表
         return <Switch> {renderRoutes(routeConfig)}</Switch>
         //组件
@@ -83,6 +86,7 @@ class BasicRoute extends React.Component {
     render() {
         return <Router history={history}>
             <Switch>
+                <Route path="/login" component={Login} />
                 <Route path={baseRoute+"/"} component={App} />
             </Switch>
         </Router>
