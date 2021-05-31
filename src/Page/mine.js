@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { TabBar } from 'antd-mobile';
 import './mine.less'
 import { Route, Switch, HashRouter, hashHistory, browserHistory, Router, Redirect } from 'react-router-dom';
-import {history} from '../Router/router'
 import dayjs from 'dayjs'
 class TabBarExample extends React.Component {
   constructor(props) {

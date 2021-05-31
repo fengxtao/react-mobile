@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './css/style.less'
 import 'antd-mobile/dist/antd-mobile.css'
 
-import BasicRoute, { history } from './Router/router'
+import BasicRoute, { history } from './Router/routerLoginFirst'
 // export async function mount(props) {
 //     console.log(props);
 //     ReactDOM.render(<BasicRoute />, document.getElementById('yourContainer'));
