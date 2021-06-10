@@ -16,6 +16,7 @@ class TabBarExample extends React.Component {
 
   renderContent(pageText) {
     const routes = this.props.route.routes;
+    console.log('routers,th',this.props)
 
     return (
       <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>

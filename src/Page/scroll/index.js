@@ -35,6 +35,7 @@ export default class extends React.Component{
     }
 
     render(){
+        console.log('routers,th',this.props)
         return <div className='page-scroll'>
             <div className='scroll-one'>
                 
@@ -44,10 +45,10 @@ export default class extends React.Component{
                             <div>
                             {
                             new Array(100).fill(1).map((el,index)=>{
-                                return <>
+                                return <div key={index}>
                                     {index}
                                     <br/>
-                                </>
+                                </div>
                             })
                         }
 

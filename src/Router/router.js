@@ -42,6 +42,7 @@ const routeConfig = [
     {
         path:  baseRoute+'/grid',
         component: Grid,
+        loginFirst:false,
     },
     {
         path:  baseRoute+'/step',

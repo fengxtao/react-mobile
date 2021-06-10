@@ -8,6 +8,7 @@ import { renderRoutes } from 'react-router-config'
 
 import { createBrowserHistory } from 'history';
 import React from 'react';
+import Midware from '../midware/midware-rc/index.tsx'
 import Mine from '../Page/mine'
 
 import Login from '../Page/Login'
@@ -16,12 +17,13 @@ import Step from '../Page/step'
 import Orientation from '../Page/Orientation'
 import Scroll from '../Page/scroll/index.js'
 import LineClamp from '../Page/line-clamp/index.js'
+import Tab from '../Page/tab'
 
 const baseRoute = ''
-const routeConfig = [
+export const routeConfig = [
     {
         path: baseRoute+'/mine',
-        component: Mine,
+        component: Midware(Mine),
         routes: [ // 嵌套路由
             {
                 path:  baseRoute+'/mine/life',
@@ -39,28 +41,29 @@ const routeConfig = [
         ]
     },
     {
-        path:  baseRoute+'/login',
-        component: Login
-    },
-    {
         path:  baseRoute+'/grid',
-        component: Grid,
+        component: Midware(Grid),
     },
     {
         path:  baseRoute+'/step',
-        component: Step,
+        component: Midware(Step),
     },
     {
         path:  baseRoute+'/orientation',
-        component: Orientation,
+        component: Midware(Orientation),
     },
     {
         path:  baseRoute+'/scroll',
-        component: Scroll,
+        component: Midware(Scroll),
+        loginFirst:false,
     },
     {
         path:  baseRoute+'/line-clamp',
-        component: LineClamp,
+        component: Midware(LineClamp),
+    },
+    {
+        path:  baseRoute+'/tab',
+        component: Midware(Tab),
     },
     {
         path:  baseRoute,
@@ -73,13 +76,9 @@ const routeConfig = [
 class App extends React.Component {
 
     render() {
-        if (!localStorage.getItem('userStore')) {
-            return <Redirect from='/*' to='/login'></Redirect>
-        } else {
-            return <Switch>
-                {renderRoutes(routeConfig)}
-            </Switch>
-        }
+        return <Switch>
+            {renderRoutes(routeConfig)}
+        </Switch>
     }
 }
 export const history = createBrowserHistory();
@@ -94,4 +93,5 @@ class BasicRoute extends React.Component {
         </Router>
     }
 }
+
 export default BasicRoute;
